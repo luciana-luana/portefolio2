@@ -188,14 +188,17 @@ function Hero() {
 
       <div className="hero-image-wrapper">
         <div className="image-decoration"></div>
+        
         <div className="hero-image">
+          
           <span className="photo-fallback">LC</span>
-          <img
-            src="/src/assets/luci.jpg"
-            alt="Luciana da Cruz"
-            onError={(event) => {
-              event.currentTarget.style.display = "none";
-            }}
+          
+            <img
+      src={luciImage}
+      alt="Luciana da Cruz"
+      onError={(event) => {
+        event.currentTarget.style.display = "none";
+      }}
           />
         </div>
         <div className="image-caption">
