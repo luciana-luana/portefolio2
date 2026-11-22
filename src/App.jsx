@@ -10,6 +10,7 @@ import NaturaSkinCareImage from "./assets/NaturaSkincare.png";
 import pythonImage from "./assets/python.png";
 import ClinicaImage from "./assets/clinica.png";
 import municipeImage from "./assets/municipe.png";
+import luciImage from "./assets/luci.jpg";
 
 const projects = [
   {
